@@ -3,7 +3,7 @@ session_start();
 $access = isset($_SESSION["userid"]);
 
 if (!$access) {
-    header("Location: ../signin.php");
+    header("Location: ../accounts/signin.php");
     exit;
 } else {
 ?>
