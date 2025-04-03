@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.wrapper{
+  height: 80vh;
+  width: 120vh;
+  margin: auto;
+  display: flex;
+  border: 3px solid black;
+  border-radius: .5%;
+  background-image: url(images/background.jpg);
+
+}
+
+.leftContainer{
+  width: 50%;
+  height: 100%;
+  background-color: white;
+}
+
+
+.leftContainer div h1 {
+  font-size: 50px;
+  text-align: center;
+}
+
+.leftContainer div p{
+  text-align: center;
+}
+
+.title{
+  width: 100%;
+  height: 20%;
+}  
+
+
+.registerForm{
+  width: 100%;
+  height: 80%;
+}
+
+.nameInput{
+  width: 100%;
+  display: flex;
+}
+
+.nameInput input{
+  width:50%;
+  padding: 15px;
+  margin: 15px;
+}
+
+.credentialInput{
+ display: flex;
+ flex-direction: column;
+}
+
+.credentialInput input{
+padding: 15px;
+margin: 15px;
+}
+
+input{
+  border-radius:10px;
+  border: 2px solid black;
+}
+
+
+.rightContainer{
+  width: 50%;
+  height: 100%;
+}
+
+.rightContainer h1{
+  text-align: center;
+  font-size: 40px;
+}
+
+
+
+.btn{
+  padding:10px;
+  width: 50%;
+  margin-left: 25%;
+  font-size: 30px;
+  background-color: #9FA0ff;
+  cursor: pointer;
+}
+
+.login{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -10%;
+  gap: 2% ;
+}
+
+
+.policy{
+  margin-top:-15px ;
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+.policy a{
+  text-decoration: none;
+}
+
+.policy a:hover{
+  text-decoration: underline;
+}
+
+
+
