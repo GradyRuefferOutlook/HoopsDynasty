@@ -16,7 +16,6 @@ try {
         "ruefferg_local",  
         "z/pyb,[K" 
     );
-    echo "Connection successful!";
 } catch (Exception $e) {
     die("ERROR: Couldn't connect. {$e->getMessage()}");
 }
