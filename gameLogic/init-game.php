@@ -1,5 +1,5 @@
 <?php
-include "connect.php";
+include "../connect.php";
 
 /**
  * Initialize the game with both teams' data

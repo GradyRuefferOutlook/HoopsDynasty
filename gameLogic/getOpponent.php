@@ -1,5 +1,5 @@
 <?php
-include "connect.php";
+include "../connect.php";
 
 /**
  * Gets opponent team players with their stats
