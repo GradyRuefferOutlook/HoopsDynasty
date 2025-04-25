@@ -1,3 +1,6 @@
+<!-- 
+ This is responsible for the user being able to sign in to the system given taht thier id is verified
+  -->
 <?php
 session_start();
 if (isset($_SESSION["userid"])) {
